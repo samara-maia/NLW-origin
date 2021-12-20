@@ -19,36 +19,56 @@
                 </span>
                 <img src="images/Tháta-Ribeiro-185x185.jpg" alt="Foto pessoal" />
             </div>
-            <h1>Samara Maia</h1>
-            <a href="https://www.instagram.com/reismaia/">
+            <h1 id="userName">Samara Maia</h1>
+            <a href="https://www.github.com/Samara-rbd/" target="_blank">
                 <img src="images/github 2.png" alt="ícone github">
                 @reismaia</a>
 
             <p>An instructor focused on helping pople start programming for web</p>
-            <ul>
-                <li>
-                    <a href="https://youtube.com/maykbrito"></a>
-                    <img src="images/youtub6423.svg" alt="ícone youtube" target="_blank" />
+            <ul id="socialLinks">
+                <li class="youtube">
+                    <a 
+                    href="https://youtube.com/maykbrito" target="_blank"
+                    > 
+                    <img src="images/youtub6423.svg" alt="ícone youtube" /></a>
                 </li>
 
-                <li>
-                    <a href="https://fecebook.com/maykbrito"></a>
-                    <img src="images/fece 6422.svg" alt="ícone fecebook" target="_blank" />
+                <li class="fecebook">
+                    <a href="https://fecebook.com/maykbrito" target="_blank" >
+                    <img src="images/fece 6422.svg" alt="ícone fecebook" /></a>
                 </li>
 
-                <li>
-                    <a href="https://instagram.com/maykbrito"></a>
-                    <img src="images/instagram 6424.svg" alt="ícone instagram" target="_blank" />
+                <li class="instagram">
+                    <a href="https://instagram.com/maykbrito" target="_blank">
+                    <img src="images/instagram 6424.svg" alt="ícone instagram"/></a>
                 </li>
 
-                <li>
-                    <a href="https://twitter.com/maykbrito"></a>
-                    <img src="images/twit 6421.svg" alt="ícone twitter" target="_blank" />
+                <li class="twitter">
+                    <a href="https://twitter.com/maykbrito"  target="_blank" >
+                    <img src="images/twit 6421.svg" alt="ícone twitter"/></a>
                 </li>
 
             </ul>
         </div>
     </main>
+    <script>
+        
+        const LinksSocialMedia = {
+            github: 'Samara-rbd',
+            youtube: 'maykbrito',
+            fecebook: 'maykbrito',
+            instagram: 'maykbrito',
+            twitter: 'maykbrito'
+        }
+        
+        function changeSocialMediaLinks() {
+            for (let li of socialLinks.children){
+              const social = li.getAttribute('class')   
+            alert(social)
+            }
+       }
+        changeSocialMediaLinks()
+    </script>
 </body>
 
 </html>
