@@ -1,9 +1,9 @@
 const LinksSocialMedia = {
     github: 'Samara-rbd',
-    linkedin: 'in/samara-maia-78149b11a',
+    linkedin: '/in/samara-maia-78149b11a',
     discord: '/channels/@me',
-    instagram: 'reismaia',
-    twitter: 'samaiareis4'
+    instagram: '/reismaia',
+    twitter: '/samaiareis4'
 }
 
 function changeSocialMediaLinks() {
