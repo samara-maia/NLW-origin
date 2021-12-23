@@ -1,9 +1,9 @@
 const LinksSocialMedia = {
     github: 'Samara-rbd',
-    youtube: 'maykbrito',
-    fecebook: 'maykbrito',
-    instagram: 'maykbrito',
-    twitter: 'maykbrito'
+    linkedin: 'in/samara-maia-78149b11a',
+    discord: '/channels/@me',
+    instagram: 'reismaia',
+    twitter: 'samaiareis4'
 }
 
 function changeSocialMediaLinks() {
